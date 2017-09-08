@@ -1,6 +1,6 @@
 # Django Setup
 
-## Ubuntu - Debian-based Linux    
+## Ubuntu(Debian-based Linux) Setup
 
 1. Download python 3  
 ```bash

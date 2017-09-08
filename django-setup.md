@@ -47,4 +47,11 @@ Run db, we are using default sqlite:
 python manage.py migrate  
 ```
 
+Run server:
+```bash
+python manage.py runserver
+```
+Make sure you add 'localhost' to ALLOWED_HOSTS array on settings.py file.  
+
+
 

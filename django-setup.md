@@ -1,6 +1,6 @@
 # Django Setup
 
-## Ubuntu(Debian-based Linux) Setup
+## I . Installation on Ubuntu(Debian-based Linux) Setup
 
 1. Download python 3  
 ```bash
@@ -33,4 +33,18 @@ pip install django~=1.10.0
 ```bash
 source myvenv/bin/activate
 ```
+
+## II. Django Demo App  
+
+Set up mysite/settings.py  
+Make sure django is installed:  
+```bash
+sudo pip install django --upgrade 
+```
+
+Run db, we are using default sqlite:  
+```bash
+python manage.py migrate  
+```
+
 

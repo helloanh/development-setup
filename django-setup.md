@@ -29,3 +29,8 @@ Issues?  https://tutorial.djangogirls.org/en/installation/#fedora-up-to-21
 pip install django~=1.10.0
 ```
 
+4. Activate virtualenv  
+```bash
+source myvenv/bin/activate
+```
+

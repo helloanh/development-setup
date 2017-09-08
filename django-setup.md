@@ -53,5 +53,7 @@ python manage.py runserver
 ```
 Make sure you add 'localhost' to ALLOWED_HOSTS array on settings.py file.  
 
-
-
+Create a new application inside the main directory with manage.py:  
+```bash
+python manage.py startapp nameofapp
+```

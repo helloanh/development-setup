@@ -64,4 +64,11 @@ Make migration:
  python manage.py makemigrations blog
  ```
  
- 
+### Exceptions  
+for anaconda installation already, see this thread <a href="https://github.com/ContinuumIO/anaconda-issues/issues/305">
+
+```bash
+conda create -n my-dev python=3.4
+conda activate my-dev
+```
+

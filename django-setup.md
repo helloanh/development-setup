@@ -34,6 +34,12 @@ pip install django~=1.10.0
 source myvenv/bin/activate
 ```
 
+5. If not using virtualenv and has anaconda installation use this:
+```bash
+conda create -n my-dev python=3.4
+source activate my-dev
+```
+
 ## II. Django Demo App  
 
 Set up mysite/settings.py  

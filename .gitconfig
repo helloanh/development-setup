@@ -1,0 +1,29 @@
+[color]
+	ui = true
+[user]
+	name = helloanh
+	email = ahoang10@jhu.edu
+
+[alias]
+
+	a = add
+	aa = add .
+	b = branch
+	c = commit
+	cm = commit -m
+	ca = commit --amend
+	cam = commit --amend -m
+	co = checkout
+	cob = checkout -b
+	com = checkout master
+	di = diff
+	lg = log --graph --oneline --decorate --all
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	ld = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
+        ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+	p = pull
+	rb = rebase
+	st = status
+	ss = status --short
+	un = reset 
+	last = log -1 HEAD
